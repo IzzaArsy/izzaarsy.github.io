@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equive="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Portofolio</title>
+
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendors/boxicons/css/boxicons.min.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg" id="customNavbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#header"><strong>Home</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <section class="header-section" id="header">
+    <div class="container">
+      <div class="row align-item-center justify-content-between">
+        <div class="col-md-6">
+          <p class="text-orange fw-semibold" style="font-size: 1.2em;">
+            Hello, I'm Izzatul Arsy</p>
+          <h1 class="header-title text-uppercase fw-bold mb-5">
+            Technology and Data <br class="d-none d-md-block" /> Enthusiasts
+          </h1>
+          <hr class="header-title">
+          It is very exciting to involve myself in the wide world of technology of knowledge, it is a reason for me to
+          continue learning, developing, and searching for opportunities.
+          </hr>
+        </div>
+        <div class="col-md-5">
+          <img src="images/zz.png" class="header-img" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About me -->
+  <section class="header-section" id="aboutme">
+    <div class="container">
+      <div class="row align-item-center justify-content-between">
+        <div class="col-md-6">
+          <p class="text-orange fw-semibold">About me</p>
+          <h2 class="section-title mb-5">Education and Skill</h2>
+          <hr class="header-title">
+          I'm a 5th semester student majoring in IT. My study period at the university of 17 August 1945. 
+          Focused on the goal of creating efficient and meaningful digital experiences, 
+          My dedication to data analysis and web development is evident by my interest in data processing and expertise in web design.
+          Some tools that I'm good at and use regularly :
+          </hr>
+          <style>
+            ul {
+              column-count: 2;
+            }
+          </style>
+          <ul>
+            <br>
+            <li>PostgreSQL</li>
+            <li>Google Looker</li>
+            <li>MATLAB</li>
+            <li>SQLyog</li>
+            <li>Data Modeler</li>
+            <li>Python</li>
+            <li>Microsoft Excel (Power Query and Power Pivot)</li>
+            <br>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP Laravel</li>
+            <li>Dart</li>
+            <li>Figma</li>
+            <li>CorelDraw</li>
+            <br>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <img src="images/Hand coding-cuate.png" class="header-img" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- portofolio -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <p class="text-orange fw-semibold">Portfolio</p>
+      <h2 class="section-title mb-5">Featured Portfolio</h2>
+
+      <div class="swiper portfolio-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="card-body">
+                <img src="images/Spreadsheets-cuate.png" alt="" class="card img-top rounded mb-3">
+                <h6 class="fw-semibold">Personal Data Report</h6>
+                <a href="https://lookerstudio.google.com/reporting/c8402a6f-47b4-499a-9dca-0910f83fe220" class="text-orange">Detail Portofolio</a>
+                <p><br>Results of value and financial data reports during lectures.</p>
+              </div>
+            </div>
+          </div>  
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="card-body">
+                <img src="images/Presentation-cuate.png" alt="" class="card img-top rounded mb-3">
+                <h6 class="fw-semibold">Marketing Data Reports</h6>
+                <a href="https://drive.google.com/file/d/1SfmMPduH3nPJzSaP3TTxpPUQmFULojz7/view?usp=sharing" class="text-orange">Detail Portofolio</a>
+                <p><br>Report on the results of marketing data analysis using PostgreSQL.</p>
+              </div>
+            </div>
+          </div>  
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="card-body">
+                <img src="images/Static website-cuate.png" alt="" class="card img-top rounded mb-3">
+                <h6 class="fw-semibold">CRUD Websites</h6>
+                <a href="https://drive.google.com/file/d/11JMO7ks9Ig32yN9mlotyBXbjH77fWsYi/view?usp=sharing" class="text-orange">Detail Portofolio</a>
+                <p><br>CRUD website display built with Laravel PHP language.</p>
+              </div>
+            </div> 
+          </div>  
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="card-body">
+                <img src="images/Mobile login-cuate.png" alt="" class="card img-top rounded mb-3">
+                <h6 class="fw-semibold">Interactive Mobile</h6>
+                <a href="https://drive.google.com/file/d/1IFlM_941MR5i6wOxwutJAQz9QfzuPbSH/view?usp=sharing" class="text-orange">Detail Portofolio</a>
+                <p><br>Interactive mobile, developed using Flutter with Dart language.</p>
+              </div>
+            </div>
+          </div>  
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="card-body">
+                <img src="images/Edit photo-bro.png" alt="" class="card img-top rounded mb-3">
+                <h6 class="fw-semibold">Multimedia</h6>
+                <a href="https://drive.google.com/file/d/1WFLs_Cerry5v7NPWMHe1uBCxi4rQqHOx/view?usp=sharing" class="text-orange">Detail Portofolio</a>
+                <p><br>Some collections of design projects I made and some photos.</p>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-6">
+          <p class="text-orange fw-semibold">Contact</p>
+          <h2 class="section-title mb-5">i am here</h2>
+          <p class="text-secondary mb3">Contact me here, I will reply immediately.</p>
+    
+          <div class="d-flex align-item-center gap-2 mb-3">
+            <i class="bx bx-envelope text-orange fs-4"></i>
+            <div class="mb-0">izzatularsy@gmail.com</div>
+          </div>
+          <div class="d-flex align-item-center gap-2 mb-3">
+            <i class="bx bx-phone text-orange fs-4"></i>
+            <div class="mb-0">0881036397558</div>
+          </div>
+          <div class="d-flex align-item-center gap-2 mb-3">
+            <i class="bx bx-map text-orange fs-4"></i>
+            <div class="mb-0">60155 Izzatul Arsy, Surabaya, Jawa Timur</div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <form action="#">
+            <input 
+            type="text" 
+            name="name" 
+            id="name" 
+            placeholder="Name"
+            class="form-control rounded-0 mb-2"
+            />
+            <input 
+            type="email" 
+            name="email" 
+            id="email" 
+            placeholder="Email"
+            class="form-control rounded-0 mb-2"
+            />
+            <textarea 
+            name="body" 
+            id="body" 
+            placeholder="Message" 
+            cols="30" 
+            rows="3" 
+            class="form-control rounded-0 mb-3"
+            ></textarea>
+
+          <button class="btn btn-orange w-100 rounded-0">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-3">
+    <div class="container">
+      <p class="text-white fs-7 mb-0">Copyrigth &copy; Izzatul Arsy.</p>
+    </div>
+  </footer>
+  <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var swiper = new Swiper(".portfolio-swiper", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        
+      });
+    });
+    
+  </script>
+  
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* variable */
+:root {
+    --primary-color: #FB6A27;
+    --dark-color: #0f0f0f;
+    --gray-color: gray;
+    --purple-color: rgb(201, 131, 201);
+    
+    --h1-font-size: 40px;
+    --h2-font-size: 32px;
+    --small-font-size: 14px;
+}
+
+/* reset css */
+* { /* global*/ 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a { /*link */
+    text-decoration: none;
+}
+
+/* global css */
+section {
+    padding: 70px 0;
+
+}
+
+section .section-title {
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-orange {
+    background-color: var(--primary-color);
+    color:aliceblue;
+}
+
+.btn-orange:hover {
+    background-color: var(--purple-color);
+    color:aliceblue;
+}
+
+.text-orange {
+    color: var(--primary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.fs-7 {
+    font-size: var(--small-font-size);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+/* css persection */
+
+/* navbar */
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {
+    color: var(--primary-color)
+}
+
+#customNavbar, footer {
+    background-color: rgba(243, 183, 72, 0.644);
+}
+
+
+.header-section .header-img {
+    width:90%
+}
+
+/* portfolio */
+.portfolio-section .card .card-img-top {
+    object-fit: cover;
+}
